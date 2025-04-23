@@ -1,12 +1,28 @@
-# React + Vite
+# ReactMovieAppwrite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that fetches movies from [TMDb API](https://www.themoviedb.org/), uses [Appwrite](https://appwrite.io/) as the backend, and [Tailwind CSS](https://tailwindcss.com/) for styling. The app allows users to search for movies, and based on their search history, it shows the top 5 movie searches.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for movies using the TMDb API
+- Displays the top 5 most searched movies based on user search history
+- Simple and responsive UI built with Tailwind CSS
+- User authentication and database integration using Appwrite
 
-## Expanding the ESLint configuration
+## Screenshot
+![Screenshot](./public/screenshot.png)>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS
+- **API**: TMDb API
+- **Backend**: Appwrite (Authentication + Database)
+- **State Management**: React Context API
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Appwrite account
+- TMDb API key
