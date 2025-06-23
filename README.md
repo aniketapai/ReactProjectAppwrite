@@ -10,7 +10,7 @@ A React app that fetches movies from [TMDb API](https://www.themoviedb.org/), us
 - User authentication and database integration using Appwrite
 
 ## Screenshot
-![Screenshot](./public/screenshot.png)>
+![Screenshot](./public/screenshot.png)
 
 ## Tech Stack
 
